@@ -1,0 +1,19 @@
+{% extends 'basecalc.html' %}
+
+{% block title %}My claculator{% endblock %}
+
+{% block content %}
+<form action="#" method="post">
+    <br>
+    <p><label>operation</label>
+        <input type="text" name="operation">
+
+    <label>num1</label>
+        <input type="number" name="num1">
+
+    <label>num2</label>
+        <input type="number" name="num2"></p>
+    <br>
+    <input type="submit" value="submit">
+</form>
+{% endblock %}
